@@ -1,0 +1,11 @@
+{
+  "name": "portafolio-editor",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "wrangler pages dev . --kv PORTFOLIO --port 8788"
+  },
+  "devDependencies": {
+    "wrangler": "^3"
+  }
+}
